@@ -25,7 +25,7 @@ def request(url: str, token: str, body: bytes, content_type: str) -> None:
         headers={
             "Authorization": token,
             "Content-Type": content_type,
-            "User-Agent": "DrakesCraft-Labs/Mantle-Unofficial (GitHub Actions)",
+            "User-Agent": "SlimefunNewHorizons/Mantle-Unofficial (GitHub Actions)",
         },
     )
     try:
